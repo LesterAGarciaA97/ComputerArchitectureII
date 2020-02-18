@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Sep  6 07:18:35 2019
+# Process ID: 8285
+# Current directory: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Lab 3 - EmisorReceptor/Lab 3 - EmisorReceptor.runs/synth_1
+# Command line: vivado -log codigo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source codigo.tcl
+# Log file: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Lab 3 - EmisorReceptor/Lab 3 - EmisorReceptor.runs/synth_1/codigo.vds
+# Journal file: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Lab 3 - EmisorReceptor/Lab 3 - EmisorReceptor.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source codigo.tcl -notrace

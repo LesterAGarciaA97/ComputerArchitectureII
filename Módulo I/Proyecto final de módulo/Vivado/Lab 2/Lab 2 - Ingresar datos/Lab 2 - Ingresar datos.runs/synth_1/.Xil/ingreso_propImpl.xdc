@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:{/home/axel/Documentos/Proyectos de Arqui 2/Vivado/Lab 2/Lab 2 - Ingresar datos/Lab 2 - Ingresar datos.srcs/constrs_1/new/cst_ingreso.xdc} rfile:{../../../Lab 2 - Ingresar datos.srcs/constrs_1/new/cst_ingreso.xdc} id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN K17 [get_ports dato]
+set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports led]

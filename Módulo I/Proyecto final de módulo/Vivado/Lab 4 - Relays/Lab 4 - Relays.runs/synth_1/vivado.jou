@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Sep  7 11:18:07 2019
+# Process ID: 28741
+# Current directory: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Lab 4 - Relays/Lab 4 - Relays.runs/synth_1
+# Command line: vivado -log codigo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source codigo.tcl
+# Log file: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Lab 4 - Relays/Lab 4 - Relays.runs/synth_1/codigo.vds
+# Journal file: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Lab 4 - Relays/Lab 4 - Relays.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source codigo.tcl -notrace

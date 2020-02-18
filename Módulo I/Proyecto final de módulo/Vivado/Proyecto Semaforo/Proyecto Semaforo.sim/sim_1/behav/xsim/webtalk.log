@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 18 15:21:24 2019
+# Process ID: 27343
+# Current directory: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Proyecto Semaforo/Proyecto Semaforo.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/axel/Documentos/laboratorios-arqui-2/Vivado/Proyecto Semaforo/Proyecto Semaforo.sim/sim_1/behav/xsim/xsim.dir/main_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Proyecto Semaforo/Proyecto Semaforo.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/axel/Documentos/laboratorios-arqui-2/Vivado/Proyecto Semaforo/Proyecto Semaforo.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/axel/Documentos/laboratorios-arqui-2/Vivado/Proyecto -notrace
+couldn't read file "/home/axel/Documentos/laboratorios-arqui-2/Vivado/Proyecto": illegal operation on a directory
+INFO: [Common 17-206] Exiting Webtalk at Wed Sep 18 15:21:24 2019...

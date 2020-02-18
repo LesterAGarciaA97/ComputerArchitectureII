@@ -1,0 +1,20 @@
+;Configuracion
+
+;Inicio del programa
+ ORG 0x00
+ GOTO START
+
+;Codigo
+START
+ BSF STATUS, 5
+ CLRF TRISB
+ BCF STATUS, RP0
+ BCF STATUS, 5
+ MOVLW 0x00
+ GOTO INC
+
+INC
+ ADDLW 0x01
+ MOVWF PORTB
+ GOTO INC
+END

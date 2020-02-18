@@ -1,0 +1,213 @@
+EESchema Schematic File Version 4
+LIBS:displays-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x08_Male J1
+U 1 1 5D85006D
+P 1800 3150
+F 0 "J1" H 1908 3631 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1908 3540 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical" H 1800 3150 50  0001 C CNN
+F 3 "~" H 1800 3150 50  0001 C CNN
+	1    1800 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3550 3650 3550
+Wire Wire Line
+	3650 3450 3800 3450
+Wire Wire Line
+	3800 3450 3800 3550
+$Comp
+L Display_Character:KCSA02-105 U1
+U 1 1 5D862E76
+P 3350 3150
+F 0 "U1" H 3350 3817 50  0000 C CNN
+F 1 "KCSA02-105" H 3350 3726 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 3350 2550 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 2850 3625 50  0001 L CNN
+	1    3350 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2850 2800 2850
+Wire Wire Line
+	2800 2850 2800 3450
+Wire Wire Line
+	2800 3450 3050 3450
+Wire Wire Line
+	2000 2950 2750 2950
+Wire Wire Line
+	2750 2950 2750 3350
+Wire Wire Line
+	2750 3350 3050 3350
+Wire Wire Line
+	2000 3050 2250 3050
+Wire Wire Line
+	2250 3050 2250 3800
+Wire Wire Line
+	3800 3800 3800 3550
+Connection ~ 3800 3550
+Wire Wire Line
+	2000 3150 2100 3150
+Wire Wire Line
+	2100 3150 2100 2750
+Wire Wire Line
+	2100 2750 3050 2750
+Wire Wire Line
+	3050 2750 3050 2850
+Wire Wire Line
+	2000 3250 2850 3250
+Wire Wire Line
+	2850 3250 2850 2950
+Wire Wire Line
+	2850 2950 3050 2950
+Wire Wire Line
+	2000 3350 2600 3350
+Wire Wire Line
+	2600 3350 2600 3050
+Wire Wire Line
+	2600 3050 3050 3050
+Wire Wire Line
+	2000 3450 2500 3450
+Wire Wire Line
+	2500 3450 2500 3150
+Wire Wire Line
+	2500 3150 3050 3150
+Wire Wire Line
+	2000 3550 2950 3550
+Wire Wire Line
+	2950 3550 2950 3250
+Wire Wire Line
+	2950 3250 3050 3250
+$Comp
+L Connector:Conn_01x08_Male J2
+U 1 1 5D871CCC
+P 1800 4550
+F 0 "J2" H 1908 5031 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1908 4940 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical" H 1800 4550 50  0001 C CNN
+F 3 "~" H 1800 4550 50  0001 C CNN
+	1    1800 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4950 3650 4950
+Wire Wire Line
+	3650 4850 3800 4850
+Wire Wire Line
+	3800 4850 3800 4950
+$Comp
+L Display_Character:KCSA02-105 U2
+U 1 1 5D871CD5
+P 3350 4550
+F 0 "U2" H 3350 5217 50  0000 C CNN
+F 1 "KCSA02-105" H 3350 5126 50  0000 C CNN
+F 2 "Display_7Segment:KCSC02-105" H 3350 3950 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-105(Ver.10A).pdf" H 2850 5025 50  0001 L CNN
+	1    3350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4250 2800 4250
+Wire Wire Line
+	2800 4250 2800 4850
+Wire Wire Line
+	2800 4850 3050 4850
+Wire Wire Line
+	2000 4350 2750 4350
+Wire Wire Line
+	2750 4350 2750 4750
+Wire Wire Line
+	2750 4750 3050 4750
+Wire Wire Line
+	2000 4450 2250 4450
+Wire Wire Line
+	2250 4450 2250 5200
+Connection ~ 3800 4950
+Wire Wire Line
+	2000 4550 2100 4550
+Wire Wire Line
+	2100 4550 2100 4150
+Wire Wire Line
+	2100 4150 3050 4150
+Wire Wire Line
+	3050 4150 3050 4250
+Wire Wire Line
+	2000 4650 2850 4650
+Wire Wire Line
+	2850 4650 2850 4350
+Wire Wire Line
+	2850 4350 3050 4350
+Wire Wire Line
+	2000 4750 2600 4750
+Wire Wire Line
+	2600 4750 2600 4450
+Wire Wire Line
+	2600 4450 3050 4450
+Wire Wire Line
+	2000 4850 2500 4850
+Wire Wire Line
+	2500 4850 2500 4550
+Wire Wire Line
+	2500 4550 3050 4550
+Wire Wire Line
+	2000 4950 2950 4950
+Wire Wire Line
+	2950 4950 2950 4650
+Wire Wire Line
+	2950 4650 3050 4650
+$Comp
+L Device:R R1
+U 1 1 5D809159
+P 3100 5300
+F 0 "R1" V 2893 5300 50  0000 C CNN
+F 1 "100" V 2984 5300 50  0000 C CNN
+F 2 "" V 3030 5300 50  0001 C CNN
+F 3 "~" H 3100 5300 50  0001 C CNN
+	1    3100 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D80BDAB
+P 2900 3850
+F 0 "R2" V 2693 3850 50  0000 C CNN
+F 1 "100" V 2784 3850 50  0000 C CNN
+F 2 "" V 2830 3850 50  0001 C CNN
+F 3 "~" H 2900 3850 50  0001 C CNN
+	1    2900 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3800 2750 3800
+Wire Wire Line
+	2750 3800 2750 3850
+Wire Wire Line
+	3050 3850 3150 3850
+Wire Wire Line
+	3150 3850 3150 3800
+Wire Wire Line
+	3150 3800 3800 3800
+Wire Wire Line
+	2250 5200 2950 5200
+Wire Wire Line
+	2950 5200 2950 5300
+Wire Wire Line
+	3250 5300 3800 5300
+Wire Wire Line
+	3800 4950 3800 5300
+$EndSCHEMATC

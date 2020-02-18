@@ -1,0 +1,336 @@
+EESchema Schematic File Version 4
+LIBS:integrador-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J1
+U 1 1 5D8159AA
+P 2050 4800
+F 0 "J1" H 2100 5217 50  0000 C CNN
+F 1 "SensoresRelays" H 2100 5126 50  0000 C CNN
+F 2 "Connector_JST:JST_PUD_B10B-PUDSS_2x05_P2.00mm_Vertical" H 2050 4800 50  0001 C CNN
+F 3 "~" H 2050 4800 50  0001 C CNN
+	1    2050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Top_Bottom J2
+U 1 1 5D816172
+P 2000 2900
+F 0 "J2" H 2050 3317 50  0000 C CNN
+F 1 "Displays" H 2050 3226 50  0000 C CNN
+F 2 "Connector_JST:JST_PUD_B10B-PUDSS_2x05_P2.00mm_Vertical" H 2000 2900 50  0001 C CNN
+F 3 "~" H 2000 2900 50  0001 C CNN
+	1    2000 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5D8172CB
+P 4950 4200
+F 0 "J3" H 5058 4381 50  0000 C CNN
+F 1 "emisores" H 5058 4290 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 4950 4200 50  0001 C CNN
+F 3 "~" H 4950 4200 50  0001 C CNN
+	1    4950 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5D818E48
+P 4950 4800
+F 0 "J4" H 5058 5081 50  0000 C CNN
+F 1 "Relay 1" H 5058 4990 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 4950 4800 50  0001 C CNN
+F 3 "~" H 4950 4800 50  0001 C CNN
+	1    4950 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5D8198E6
+P 5000 5450
+F 0 "J5" H 5108 5731 50  0000 C CNN
+F 1 "Relay 2" H 5108 5640 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 5000 5450 50  0001 C CNN
+F 3 "~" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J6
+U 1 1 5D819D3F
+P 5000 6100
+F 0 "J6" H 5108 6381 50  0000 C CNN
+F 1 "Relay 3" H 5108 6290 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 5000 6100 50  0001 C CNN
+F 3 "~" H 5000 6100 50  0001 C CNN
+	1    5000 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 5D81B613
+P 4850 2250
+F 0 "J7" H 4958 2531 50  0000 C CNN
+F 1 "Receptor 3" H 4958 2440 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 4850 2250 50  0001 C CNN
+F 3 "~" H 4850 2250 50  0001 C CNN
+	1    4850 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5D81B619
+P 4900 2900
+F 0 "J8" H 5008 3181 50  0000 C CNN
+F 1 "Receptor 2" H 5008 3090 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 4900 2900 50  0001 C CNN
+F 3 "~" H 4900 2900 50  0001 C CNN
+	1    4900 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J9
+U 1 1 5D81B61F
+P 4900 3550
+F 0 "J9" H 5008 3831 50  0000 C CNN
+F 1 "Receptor 1" H 5008 3740 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 4900 3550 50  0001 C CNN
+F 3 "~" H 4900 3550 50  0001 C CNN
+	1    4900 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 4050 4750 4100
+Wire Wire Line
+	4600 4200 4750 4200
+Wire Wire Line
+	4450 4050 4450 3450
+Wire Wire Line
+	4450 3450 4700 3450
+Connection ~ 4450 4050
+Wire Wire Line
+	4450 4050 4750 4050
+Wire Wire Line
+	4450 3450 4450 2800
+Wire Wire Line
+	4450 2800 4700 2800
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 2800 4450 2150
+Wire Wire Line
+	4450 2150 4650 2150
+Connection ~ 4450 2800
+Wire Wire Line
+	4450 4050 4450 4700
+Wire Wire Line
+	4450 4700 4750 4700
+Wire Wire Line
+	4450 4700 4450 5350
+Wire Wire Line
+	4450 5350 4800 5350
+Connection ~ 4450 4700
+Wire Wire Line
+	4450 5350 4450 6000
+Wire Wire Line
+	4450 6000 4800 6000
+Connection ~ 4450 5350
+Wire Wire Line
+	4600 4200 4600 4800
+Wire Wire Line
+	4600 4800 4750 4800
+Connection ~ 4600 4200
+Wire Wire Line
+	4600 4800 4600 5450
+Wire Wire Line
+	4600 5450 4800 5450
+Connection ~ 4600 4800
+Wire Wire Line
+	4600 5450 4600 6100
+Wire Wire Line
+	4600 6100 4800 6100
+Connection ~ 4600 5450
+Wire Wire Line
+	4600 3550 4700 3550
+Wire Wire Line
+	4600 2900 4700 2900
+Connection ~ 4600 3550
+Wire Wire Line
+	4600 2250 4650 2250
+Wire Wire Line
+	4600 2250 4600 2900
+Connection ~ 4600 2900
+Wire Wire Line
+	4600 2900 4600 3550
+Wire Wire Line
+	2350 4900 2850 4900
+Wire Wire Line
+	2350 5000 2950 5000
+Wire Wire Line
+	4750 4900 3200 4900
+Wire Wire Line
+	3200 4900 3200 5350
+Wire Wire Line
+	3200 5350 2600 5350
+Wire Wire Line
+	2600 5350 2600 4600
+Wire Wire Line
+	2600 4600 2350 4600
+Wire Wire Line
+	4800 5550 2500 5550
+Wire Wire Line
+	2500 5550 2500 4700
+Wire Wire Line
+	2500 4700 2350 4700
+Wire Wire Line
+	4800 6200 2450 6200
+Wire Wire Line
+	2450 6200 2450 4800
+Wire Wire Line
+	2450 4800 2350 4800
+Wire Wire Line
+	4700 3650 4000 3650
+Wire Wire Line
+	4000 3650 4000 6400
+Wire Wire Line
+	4000 6400 1550 6400
+Wire Wire Line
+	1550 6400 1550 4600
+Wire Wire Line
+	1550 4600 1850 4600
+Wire Wire Line
+	4700 3000 4300 3000
+Wire Wire Line
+	4300 3000 4300 6650
+Wire Wire Line
+	4300 6650 1300 6650
+Wire Wire Line
+	1300 6650 1300 4700
+Wire Wire Line
+	1300 4700 1850 4700
+Wire Wire Line
+	4650 2350 4100 2350
+Wire Wire Line
+	4100 2350 4100 6900
+Wire Wire Line
+	4100 6900 1150 6900
+Wire Wire Line
+	1150 6900 1150 4800
+Wire Wire Line
+	1150 4800 1850 4800
+Wire Wire Line
+	4600 3550 4600 4200
+Wire Wire Line
+	2950 2150 4450 2150
+Wire Wire Line
+	2950 2150 2950 5000
+Connection ~ 4450 2150
+Wire Wire Line
+	2850 2250 4600 2250
+Wire Wire Line
+	2850 2250 2850 4900
+Connection ~ 4600 2250
+$Comp
+L Connector:Conn_01x06_Male J10
+U 1 1 5D822534
+P 950 2700
+F 0 "J10" H 1058 3081 50  0000 C CNN
+F 1 "displayUnidades" H 1058 2990 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 950 2700 50  0001 C CNN
+F 3 "~" H 950 2700 50  0001 C CNN
+	1    950  2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J11
+U 1 1 5D82359D
+P 950 3700
+F 0 "J11" H 1058 4081 50  0000 C CNN
+F 1 "DisplayDecenas" H 1058 3990 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical" H 950 3700 50  0001 C CNN
+F 3 "~" H 950 3700 50  0001 C CNN
+	1    950  3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4900 1750 4900
+Wire Wire Line
+	1750 4900 1750 4150
+Wire Wire Line
+	1750 4150 1400 4150
+Wire Wire Line
+	1400 4150 1400 3500
+Wire Wire Line
+	1400 3500 1150 3500
+Wire Wire Line
+	1150 2500 1400 2500
+Wire Wire Line
+	1400 2500 1400 3500
+Connection ~ 1400 3500
+Wire Wire Line
+	1850 5000 1650 5000
+Wire Wire Line
+	1650 5000 1650 3600
+Wire Wire Line
+	1650 3600 1150 3600
+Wire Wire Line
+	1150 2600 1650 2600
+Wire Wire Line
+	1650 2600 1650 3600
+Connection ~ 1650 3600
+Wire Wire Line
+	1150 2700 1550 2700
+Wire Wire Line
+	1550 2700 1550 2900
+Wire Wire Line
+	1550 2900 1800 2900
+Wire Wire Line
+	1150 2800 1800 2800
+Wire Wire Line
+	1150 2900 1500 2900
+Wire Wire Line
+	1500 2900 1500 2650
+Wire Wire Line
+	1500 2650 1800 2650
+Wire Wire Line
+	1800 2650 1800 2700
+Wire Wire Line
+	1150 3000 1800 3000
+Wire Wire Line
+	1150 4000 2400 4000
+Wire Wire Line
+	2400 4000 2400 3000
+Wire Wire Line
+	2400 3000 2300 3000
+Wire Wire Line
+	2300 2700 2500 2700
+Wire Wire Line
+	2500 2700 2500 3900
+Wire Wire Line
+	2500 3900 1150 3900
+Wire Wire Line
+	1150 3800 2600 3800
+Wire Wire Line
+	2600 3800 2600 2800
+Wire Wire Line
+	2600 2800 2300 2800
+Wire Wire Line
+	1150 3700 2650 3700
+Wire Wire Line
+	2650 3700 2650 2900
+Wire Wire Line
+	2650 2900 2300 2900
+$EndSCHEMATC
